@@ -11,3 +11,4 @@ for (x,y,w,h) in faces:
     cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2) #draw a rectangle based on the rectangle
     plt.imshow(img)
     plt.show()
+    
